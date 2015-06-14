@@ -26,3 +26,7 @@ Docker image to run Pandas on iPython3. Yes Python3!
 your pandas/notebooks directory.
 
 3. have fun
+
+## Contrib
+
+* https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
