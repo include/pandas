@@ -1,5 +1,4 @@
 FROM ubuntu:14.04
-
 MAINTAINER include <francisco.cabrita@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
