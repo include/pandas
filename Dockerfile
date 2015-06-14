@@ -28,9 +28,7 @@ RUN apt-get install -y \
     libfreetype6 \
     libfreetype6-dev \
     libpng-dev \
-    libzmq3-dev
-
-RUN apt-get install -y \
+    libzmq3-dev \
     python3-software-properties \
     python3-pip \
     python3-imaging \
