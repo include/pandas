@@ -1,3 +1,3 @@
-docker run -v $(pwd)/notebooks:/pandas/notebooks   \
-           -p 8888:8888                       \
-           -ti include/pandas /bin/bash
+docker run -v $(pwd)/notebooks:/pandas/notebooks \
+           -p 8888:8888                          \
+           -ti include/pandas
