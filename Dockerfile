@@ -35,6 +35,7 @@ RUN apt-get install -y \
     python3-zmq \
     python3-numpy \
     python3-pandas \
+    python3-scipy \
     python3-jinja2 \
     ipython3-notebook
 
