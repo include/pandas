@@ -30,12 +30,16 @@ RUN apt-get install -y \
     libzmq3-dev \
     python3-software-properties \
     python3-pip \
+    python3-requests \
+    python3-simplejson \
     python3-imaging \
     python3-zmq \
     python3-numpy \
     python3-pandas \
     python3-scipy \
     python3-jinja2 \
+    python3-tornado \
+    python3-matplotlib \
     ipython3-notebook
 
 RUN ipython3 profile create default
