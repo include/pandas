@@ -42,6 +42,10 @@ RUN apt-get install -y \
     python3-matplotlib \
     ipython3-notebook
 
+RUN pip3 install \
+    bokeh \
+    seaborn
+
 RUN ipython3 profile create default
 
 #RUN rm ~/.ipython/profile_default/ipython_notebook_config.py
