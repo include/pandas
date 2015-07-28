@@ -40,7 +40,9 @@ RUN apt-get install -y \
     python3-jinja2 \
     python3-tornado \
     python3-matplotlib \
-    ipython3-notebook
+    ipython3-notebook && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install \
     bokeh \
